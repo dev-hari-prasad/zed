@@ -11,6 +11,7 @@ See the platform-specific instructions for building Zed from source:
 - [Linux](./development/linux.md)
 - [Windows](./development/windows.md)
 - [Extracting the Git UI](./development/git-ui-extraction.md)
+- [Desktop Dev and Build Commands](./development/desktop-dev-build-commands.md)
 
 ## Keychain access
 

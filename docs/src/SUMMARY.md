@@ -210,6 +210,7 @@
   - [Linux](./development/linux.md)
   - [Windows](./development/windows.md)
   - [FreeBSD](./development/freebsd.md)
+  - [Desktop Dev and Build Commands](./development/desktop-dev-build-commands.md)
   - [Using Debuggers](./development/debuggers.md)
   - [Performance](./performance.md)
   - [Glossary](./development/glossary.md)
