@@ -213,5 +213,6 @@
   - [Using Debuggers](./development/debuggers.md)
   - [Performance](./performance.md)
   - [Glossary](./development/glossary.md)
+  - [Extracting the Git UI](./development/git-ui-extraction.md)
 - [Release Notes](./development/release-notes.md)
 - [Debugging Crashes](./development/debugging-crashes.md)

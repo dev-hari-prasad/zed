@@ -10,6 +10,7 @@ See the platform-specific instructions for building Zed from source:
 - [macOS](./development/macos.md)
 - [Linux](./development/linux.md)
 - [Windows](./development/windows.md)
+- [Extracting the Git UI](./development/git-ui-extraction.md)
 
 ## Keychain access
 
