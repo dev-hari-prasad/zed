@@ -9,23 +9,23 @@ Zed's Git workflow UI is centered in the `git_ui` crate and is similar in scope 
 
 ## Primary module to extract first
 
-- `/home/runner/work/zed/zed/crates/git_ui`
+- `crates/git_ui`
 
 ## Key files for commit and review workflows
 
-- `/home/runner/work/zed/zed/crates/git_ui/src/git_panel.rs`
-- `/home/runner/work/zed/zed/crates/git_ui/src/project_diff.rs`
-- `/home/runner/work/zed/zed/crates/git_ui/src/file_diff_view.rs`
-- `/home/runner/work/zed/zed/crates/git_ui/src/text_diff_view.rs`
-- `/home/runner/work/zed/zed/crates/git_ui/src/multi_diff_view.rs`
-- `/home/runner/work/zed/zed/crates/git_ui/src/commit_view.rs`
-- `/home/runner/work/zed/zed/crates/git_ui/src/commit_modal.rs`
-- `/home/runner/work/zed/zed/crates/git_ui/src/git_ui.rs`
+- `crates/git_ui/src/git_panel.rs`
+- `crates/git_ui/src/project_diff.rs`
+- `crates/git_ui/src/file_diff_view.rs`
+- `crates/git_ui/src/text_diff_view.rs`
+- `crates/git_ui/src/multi_diff_view.rs`
+- `crates/git_ui/src/commit_view.rs`
+- `crates/git_ui/src/commit_modal.rs`
+- `crates/git_ui/src/git_ui.rs`
 
 ## Backend layers it depends on
 
-- `/home/runner/work/zed/zed/crates/git/src/git.rs`
-- `/home/runner/work/zed/zed/crates/project/src/git_store.rs`
+- `crates/git/src/git.rs`
+- `crates/project/src/git_store.rs`
 
 ## Practical extraction sequence
 
@@ -38,16 +38,16 @@ Zed's Git workflow UI is centered in the `git_ui` crate and is similar in scope 
 
 From `git_ui` initialization and registration:
 
-- `/home/runner/work/zed/zed/crates/git_ui/src/git_ui.rs`
+- `crates/git_ui/src/git_ui.rs`
 
 From panel behavior and action handlers:
 
-- `/home/runner/work/zed/zed/crates/git_ui/src/git_panel.rs`
+- `crates/git_ui/src/git_panel.rs`
 
 In app startup where `git_ui::init(cx)` is called:
 
-- `/home/runner/work/zed/zed/crates/zed/src/main.rs`
-- `/home/runner/work/zed/zed/crates/zed/src/zed.rs`
+- `crates/zed/src/main.rs`
+- `crates/zed/src/zed.rs`
 
 ## Expected effort and risk
 
